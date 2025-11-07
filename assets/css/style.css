@@ -1,0 +1,581 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav.navbar{
+    position: fixed;
+    top: auto;
+    z-index: 1;
+    width: 100%;
+}
+:hover.nav-item{
+    cursor: pointer;
+    background-color: rgb(203, 200, 200);
+}
+.content{
+    position: relative;
+    img{
+        position: relative;
+    }
+   p{
+    position: absolute;
+    top: 270px;
+   }
+   button{
+    position: absolute;
+    left: 0;
+    top: 60%;
+   }
+
+}
+
+.big-text{
+    color: white;
+    padding-top: 125px;
+    padding-left: 50px;
+    font-size: 60px;
+}
+
+.small-text{
+    color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 19px;
+}
+
+.Learn-btn{
+    padding: 10px 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(138, 135, 135);
+
+    &:hover{
+        background-color: rgb(176, 177, 179);
+    }
+}
+
+.socialmedia{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 100px 0px 0px 20px;
+    width: 175px;
+    color: white;
+    top: 400px;
+
+.icons{
+    cursor: pointer;
+    &:hover{
+        color: gray;
+    }
+}
+}
+/* First page end */
+
+/* Second page start */
+.company{
+    margin-top: 100px;
+    text-align: center;
+    .about{
+        font-size: 25px;
+    }
+    .features{
+        font-size: 18px;
+    }
+}
+
+.details{
+    display: flex;
+    margin: 70px 20px;
+    text-align: center;
+    .bi{
+        font-size: 60px;        
+}
+    .sub-head{
+        font-size: 20px;
+        margin: 30px 0px;
+    }
+    .inform{
+        width: 300px;
+    }
+}
+/* second page ends */
+
+/* third page starts */
+.works{
+    display: flex;
+    background-color: rgb(235, 233, 233);
+    justify-content: space-between;
+    .design{
+        /* align-items: center; */
+        padding-top: 150px;
+        margin-left: 30px;
+        width: 550px;
+        b{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p{
+            padding-top: 20px;
+        }
+        button{
+            margin-top: 5px;
+            border: none;
+            padding: 10px 15px;
+            background-color: black;
+            color: white;
+            &:hover{
+                background-color: lightgray;
+                color: black;
+            }
+        }
+    }
+    .mobile-img{
+        padding: 140px 30px 140px 0px;
+        border-radius: 5px;
+        img{
+            border-radius: 10px;
+        }
+    }
+}
+
+/* Fourth page starts */
+.workers{
+        padding-bottom: 140px;
+    .team{
+        padding-top: 140px;
+        text-align: center;
+        p{
+            font-size: 20px;
+            padding: 20px 0px 50px 0px;
+        }
+    }
+
+    .members{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 20px 0px;
+        .card{
+            box-shadow: 1px 1px 3px;
+        }
+    }
+   
+    .but{
+        border: none;
+        padding: 10px 90px;
+        &:hover{
+            background-color: lightgray;
+        }
+    }
+    
+    .card-text{
+        color: rgb(117, 116, 116);
+    } 
+}
+
+/* Fifth page starts */
+.numbers{
+    background-color: gray;
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    .stat{
+        font-size:35px ;
+    }
+}
+/* Fifth page ends  */
+
+/* Sixth page starts */
+.our-work{
+    padding-top: 140px;
+    text-align: center;
+    font-size: 15px;
+    p{
+        padding: 20px 0px 50px 0px;
+        font-size: 18px;
+    }
+}
+
+.project-images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 13px 0px;
+    padding-bottom: 140px;
+}
+
+/* Seventh page starts */
+
+.page-7{
+    display: flex;
+    background-color: rgba(238, 237, 237, 0.685);
+    padding: 100px 30px;
+
+    
+    
+}
+.skills-left{
+    width: 50vw;
+}
+.skills-right {
+    flex: 1;
+}
+
+.skill {
+    margin-bottom: 25px;
+}
+
+.skill p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress {
+    width: 100%;
+    height: 30px;
+    background: #d2d2d2;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #555;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+/* eighth page starts */
+.pricing{
+    padding: 100px 0px ;
+    background-color: #555;
+}
+.price-head{
+    text-align: center;
+    color: white;
+}
+.pricing-plan{
+    display: flex;
+    justify-content: space-evenly;
+}
+.basic-card, .premium-card{
+    /* border: 1px solid black; */
+    width: 28vw;
+    text-align: center;
+    background-color: white;
+    margin-top: 80px;
+    h1{
+        height: 90px;
+        background-color: black;
+        color: white;
+        padding-top: 20px;
+
+    }
+    p{
+        height: 30px;
+    }
+    button{
+        border: none;
+        padding: 10px 30px;
+        background-color: black;
+        color: white;
+        &:hover{
+            background-color: lightgray;
+            color: black;
+        }
+    }
+}
+
+.pro-card{
+    display: inline-block;
+    margin-top: 60px;
+    /* border: 1px solid black; */
+    width: 28vw;
+    text-align: center;
+    background-color: white;
+    
+    h1{
+        padding-top: 35px;
+        background-color: rgba(255, 0, 0, 0.767);
+        height: 130px;
+        color: white;
+    }
+    p{
+        height: 30px;
+    }
+      button{
+        border: none;
+        padding: 10px 30px;
+        background-color: black;
+        color: white;
+        &:hover{
+            background-color: lightgray;
+            color: black;
+        }
+    }
+
+}
+
+/* eight page ends */
+
+/* ninth page starts */
+.page-9{
+    padding: 120px 0px;
+    background-color:rgba(238, 237, 237, 0.685) ;
+}
+.contact-1{
+    text-align: center;
+    h1{
+        padding-bottom: 20px;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+}
+.contact-2{
+    margin-left: 30px;
+    padding-bottom: 25px;
+    p{
+        padding-bottom: 15px;
+        i{
+            font-size: 30px;
+        }
+    }
+}
+.contact-3{
+    form{
+        input{
+            margin-left: 20px;
+            width: 96vw;
+            margin-bottom: 15px;
+            padding: 8px;
+            border: 1px solid grey;
+        }
+        button{
+            padding: 10px 20px;
+            margin-left: 20px;
+            border: none;
+            background-color: black;
+            color: white;
+            &:hover{
+                color: black;
+                background-color: grey;
+            }
+        }
+    }
+    img{
+       margin: 60px 20px;
+
+    }
+}
+/* ninth page ends */
+
+/* footer page starts */
+footer{
+    background-color: black;
+    text-align: center;
+    height: 300px;
+    
+    button{
+        border: none;
+        margin-top: 50px;
+        padding: 10px 20px;
+        &:hover{
+            background-color: lightgray;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .socialmedias{
+        display: flex;
+        justify-content: center;
+        padding-right: 25px;
+        li{
+            list-style: none;
+            color: white;
+            margin-right:5px;
+            font-size: 20px;
+            padding: 20px 0px;
+            &:hover{
+                color: gray;
+            }
+        }
+        
+    }
+    p{
+        color: white;
+    }
+}
+
+/*  Mobile devices (max-width: 600px) */
+@media (max-width: 600px) {
+
+    nav.navbar {
+        position: static;
+    }
+
+    .content {
+        background-position: center;
+        height: 420px;
+    }
+
+    .big-text {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 80px;
+    }
+
+    .small-text {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .Learn-btn {
+        font-size: 16px;
+        padding: 8px 15px;
+        margin-left: 20px;
+    }
+
+    .socialmedia {
+        margin-left: 20px;
+    }
+
+    /* Page 2 - Features */
+    .details {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* Page 3 - Works Section */
+    .works {
+        
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        display: flex;
+    }
+    .works .design {
+        width: 100%;
+        padding-top: 40px;
+        margin-left: 0;
+    }
+    .mobile-img {
+        padding: 20px;
+    }
+    .mobile-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Team Section */
+    .members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Numbers section */
+    .numbers {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    /* Projects */
+    .project-images img {
+        width: 90%;
+    }
+
+    /* Skills section */
+    .page-7 {
+        flex-direction: column;
+    }
+    .skills-left, .skills-right {
+        width: 100%;
+    }
+
+    /* Pricing plans */
+    .pricing-plan {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .basic-card, .pro-card, .premium-card {
+        width: 90vw;
+    }
+
+    /* Contact form */
+    .contact-3 form input {
+        width: 90vw;
+        margin-left: 10px;
+    }
+
+    .contact-3 img {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
+
+/* Tablets (600px – 900px) */
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .socialmedia{
+        color: white;
+        position: absolute;
+        top: 370px;
+    }
+
+    .details {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .works {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pricing-plan {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .basic-card, .pro-card, .premium-card {
+        width: 45vw;
+    }
+
+    .page-7 {
+        flex-direction: column;
+    }
+
+    .skills-left, .skills-right {
+        width: 100%;
+    }
+}
+
+/* Large screens fix */
+@media (min-width: 1200px) {
+    .content {
+        background-size: cover;
+    }
+}
