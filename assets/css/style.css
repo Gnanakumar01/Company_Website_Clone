@@ -3,20 +3,31 @@
     margin: 0%;
     box-sizing: border-box;
 }
+/* Navbar starts */
 nav.navbar{
     position: fixed;
     top: auto;
     z-index: 1;
     width: 100%;
+    height: 50px;
+    padding: 0px;
 }
-:hover.nav-item{
+.nav-link{
+    padding: 13px 0px;
+}
+.nav-item{
+    transition-duration: 1s;
+    &:hover{
     cursor: pointer;
     background-color: rgb(203, 200, 200);
+    transition-duration: 700ms;
+    }
 }
+/* Navbar Ends */
 .content{
     position: relative;
     img{
-        position: relative;
+        aspect-ratio: 16/4;
     }
    p{
     position: absolute;
@@ -51,9 +62,10 @@ nav.navbar{
     font-size: 20px;
     border: none;
     background-color: rgb(138, 135, 135);
-
+    transition-duration: 1s;
     &:hover{
         background-color: rgb(176, 177, 179);
+        transition-duration: 700ms;
     }
 }
 
@@ -69,16 +81,18 @@ nav.navbar{
 
 .icons{
     cursor: pointer;
+    transition-duration: 1s;
     &:hover{
         color: gray;
+        transition-duration: 700ms;
     }
 }
 }
-/* First page end */
+/* Home page end */
 
-/* Second page start */
+/* About page start */
 .company{
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
     .about{
         font-size: 25px;
@@ -90,7 +104,7 @@ nav.navbar{
 
 .details{
     display: flex;
-    margin: 70px 20px;
+    padding: 70px 20px;
     text-align: center;
     .bi{
         font-size: 60px;        
@@ -103,9 +117,9 @@ nav.navbar{
         width: 300px;
     }
 }
-/* second page ends */
+/* About page ends */
 
-/* third page starts */
+/* Design page starts */
 .works{
     display: flex;
     background-color: rgb(235, 233, 233);
@@ -128,9 +142,11 @@ nav.navbar{
             padding: 10px 15px;
             background-color: black;
             color: white;
+            transition-duration: 1s;
             &:hover{
                 background-color: lightgray;
                 color: black;
+                transition-duration: 700ms;
             }
         }
     }
@@ -142,8 +158,9 @@ nav.navbar{
         }
     }
 }
+/* Design page ends */
 
-/* Fourth page starts */
+/* Workers page starts */
 .workers{
         padding-bottom: 140px;
     .team{
@@ -168,8 +185,10 @@ nav.navbar{
     .but{
         border: none;
         padding: 10px 90px;
+        transition-duration: 1s;
         &:hover{
             background-color: lightgray;
+            transition-duration: 700ms;
         }
     }
     
@@ -177,8 +196,9 @@ nav.navbar{
         color: rgb(117, 116, 116);
     } 
 }
+/* Workers page ends */
 
-/* Fifth page starts */
+/* More about page starts */
 .numbers{
     background-color: gray;
     display: flex;
@@ -190,9 +210,9 @@ nav.navbar{
         font-size:35px ;
     }
 }
-/* Fifth page ends  */
+/* more about page ends  */
 
-/* Sixth page starts */
+/* work page starts */
 .our-work{
     padding-top: 140px;
     text-align: center;
@@ -210,16 +230,14 @@ nav.navbar{
     gap: 13px 0px;
     padding-bottom: 140px;
 }
+/* work page ends */
 
-/* Seventh page starts */
+/* Skills page starts */
 
 .page-7{
     display: flex;
     background-color: rgba(238, 237, 237, 0.685);
-    padding: 100px 30px;
-
-    
-    
+    padding: 100px 30px;  
 }
 .skills-left{
     width: 50vw;
@@ -255,7 +273,9 @@ nav.navbar{
     line-height: 30px;
     font-size: 14px;
 }
-/* eighth page starts */
+/* skills page ends */
+
+/* Pricing page starts */
 .pricing{
     padding: 100px 0px ;
     background-color: #555;
@@ -274,6 +294,7 @@ nav.navbar{
     text-align: center;
     background-color: white;
     margin-top: 80px;
+    padding-bottom: 5px;
     h1{
         height: 90px;
         background-color: black;
@@ -289,9 +310,11 @@ nav.navbar{
         padding: 10px 30px;
         background-color: black;
         color: white;
+        transition-duration: 1s;
         &:hover{
             background-color: lightgray;
             color: black;
+            transition-duration: 700ms;
         }
     }
 }
@@ -303,6 +326,7 @@ nav.navbar{
     width: 28vw;
     text-align: center;
     background-color: white;
+    padding-bottom: 10px;
     
     h1{
         padding-top: 35px;
@@ -318,17 +342,19 @@ nav.navbar{
         padding: 10px 30px;
         background-color: black;
         color: white;
+        transition-duration: 1s;
         &:hover{
             background-color: lightgray;
             color: black;
+            transition-duration: 700ms;
         }
     }
 
 }
 
-/* eight page ends */
+/* Pricing page ends */
 
-/* ninth page starts */
+/* Contact page starts */
 .page-9{
     padding: 120px 0px;
     background-color:rgba(238, 237, 237, 0.685) ;
@@ -360,6 +386,9 @@ nav.navbar{
             margin-bottom: 15px;
             padding: 8px;
             border: 1px solid grey;
+            &:focus{
+                border-color: blue;
+            }
         }
         button{
             padding: 10px 20px;
@@ -367,9 +396,11 @@ nav.navbar{
             border: none;
             background-color: black;
             color: white;
+            transition-duration: 1s;
             &:hover{
                 color: black;
                 background-color: grey;
+                transition-duration: 700ms;
             }
         }
     }
@@ -378,7 +409,7 @@ nav.navbar{
 
     }
 }
-/* ninth page ends */
+/* contact page ends */
 
 /* footer page starts */
 footer{
@@ -390,8 +421,10 @@ footer{
         border: none;
         margin-top: 50px;
         padding: 10px 20px;
+        transition-duration: 1s;
         &:hover{
             background-color: lightgray;
+            transition-duration: 700ms;
         }
         a{
             text-decoration: none;
@@ -408,8 +441,10 @@ footer{
             margin-right:5px;
             font-size: 20px;
             padding: 20px 0px;
+            transition-duration: 1s;
             &:hover{
                 color: gray;
+                transition-duration: 700ms;
             }
         }
         
@@ -424,6 +459,11 @@ footer{
 
     nav.navbar {
         position: static;
+    }
+    .company{
+        .about{
+            padding-top: 150px;
+        }
     }
 
     .content {
@@ -536,6 +576,9 @@ footer{
 
 /* Tablets (600px – 900px) */
 @media (min-width: 600px) and (max-width: 900px) {
+     .camp{
+        z-index: 1;
+    }
 
     .socialmedia{
         color: white;
